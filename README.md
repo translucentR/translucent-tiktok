@@ -64,6 +64,24 @@ If new Python packages are installed during development, make sure to update the
 - Ensure Node.js and npm are updated to their latest versions if you encounter any issues with npm packages or scripts.
 - For NVIDIA GPU support please make sure to have CUDA v12.1.0 and cuDNN v9.0.0 installed
 
+## Roadmap
+
+### TODO Before Alpha Release
+
+- **Finish Alpha Pipeline:** Complete the alpha pipeline from TTS to STT + VTT and saving functionalities.
+- **File Naming and Styling:** Implement fields for custom file names and enhance UI/UX design.
+- **Landing Page:** Redesign the landing page to improve user engagement.
+- **Background Customization:** Add support for users to select custom backgrounds or generate dynamic video backgrounds.
+- **Video Splitting:** Develop features to split videos into parts based on time or equal segments.
+- **Local Database Integration:** Implement a local database to store video metadata and provide review capabilities.
+
+### TODO For Beta Release
+
+- **Cross-Platform Support:** Ensure the application supports various operating systems and GPUs.
+- **Voice Model Optimization:** Enhance voice models for better performance and extend support for additional models.
+- **User Settings Page:** Create a settings page to store user profile information and manage authentication with TikTok.
+- **TikTok Integration:** Integrate direct uploading to TikTok and support for multi-part video uploads.
+
 ## Contributing
 
-Contributions to the project are welcome. Ensure any open issues are discussed in the issue tracker before opening a pull request.
+Contributions are welcome! Please fork the repository and submit pull requests with any enhancements, bug fixes, or suggestions.
