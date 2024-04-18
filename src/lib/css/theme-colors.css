@@ -1,0 +1,45 @@
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+    :root {
+        /* Background Colors */
+        --primary-bg: #FFFFFF;
+        --secondary-bg: #F7F7F7;
+        --tertiary-bg: #EFEFEF;
+
+        /* Font Colors */
+        --primary-font: #333333;
+        --secondary-font: #555555;
+        --link-font: #1A0DAB;
+
+        /* Accent Colors */
+        --primary-accent: #007BFF;
+        --primary-accent-hover: #0161c8;
+        --secondary-accent: #FFC107;
+
+        /* Borders and Dividers */
+        --border-color: #DDDDDD;
+    }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Background Colors */
+        --primary-bg: #121212;
+        --secondary-bg: #1F1F1F;
+        --tertiary-bg: #2C2C2C;
+
+        /* Font Colors */
+        --primary-font: #E0E0E0;
+        --secondary-font: #BDBDBD;
+        --link-font: #8AB4F8;
+
+        /* Accent Colors */
+        --primary-accent: #1B95E0;
+        --primary-accent-hover: #1678b5;
+        --secondary-accent: #FFEB3B;
+
+        /* Borders and Dividers */
+        --border-color: #333333;
+    }
+}
