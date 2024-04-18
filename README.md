@@ -37,6 +37,10 @@ This project is a desktop application built with Electron, SvelteKit, and Flask,
 - **Production Mode**:
   Building the application for production has not been tested yet. Instructions will be added when available.
 
+## Recommendations
+
+Some of the Coqui.ai models require a license to use commercially, and require a prompt of "accept" to use. I haven't figured out how to automate this yet, so I've been testing with the tacotron2 model.
+
 ## Updating Python Dependencies
 
 If new Python packages are installed during development, make sure to update the `requirements.txt` file. Here are the steps to ensure consistency:
